@@ -1,0 +1,66 @@
+body{
+    background-image: url("D:/Backup/Imágenes/Montaña1.jpg");
+}
+.title{
+    text-align: center;
+    color:saddlebrown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.btn{
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 45%;
+}
+.shadow-effect {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #007bff; /* Color base del botón */
+    transition: box-shadow 0.3s ease-in-out; /* Transición suave del efecto de sombra */
+  }
+  .shadow-effect:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta el desplazamiento y la opacidad de la sombra */
+  }
+
+.primary {
+    color:black;
+    background-color: white; 
+    border: 2px solid #007bff;} 
+.primary:hover { /*cuando se acerca el puntero al boton*/
+    background: #0b7dda; 
+    color: white;}
+
+.secundary{
+    color:black;
+    background-color: white; 
+    border: 2px solid green; 
+}
+.secundary:hover{
+    background: green; 
+    color: white;
+}
+.alert{
+    color:black;
+    background-color: white; 
+    border: 2px solid yellow;
+}
+.alert:hover{
+    background: yellow; 
+    color: white;
+}
+.danger{
+    color:black;
+    background-color: white; 
+    border: 2px solid red;
+}
+.danger:hover{
+    background: red; 
+    color: white;
+}
