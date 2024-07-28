@@ -1,0 +1,44 @@
+
+body{
+    background-image: url("https://img.freepik.com/fotos-premium/luz-luna-hd-8k-fondo-pantalla-imagen-fotografica-stock_915071-63121.jpg");
+}
+.title{
+    text-align: center;
+    color:rgb(210, 210, 210);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.btn{
+    border: none;
+    color: black;
+    padding: 35px 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-family:monospace;
+}
+.shadow-effect {
+    border: none;
+    color: white;
+    padding: 35px 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #007bff; /* Color base del botón */
+    transition: box-shadow 0.3s ease-in-out; /* Transición suave del efecto de sombra */
+  }
+  .shadow-effect:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta el desplazamiento y la opacidad de la sombra */
+  }
+
+.unique {
+    font-weight: bold;
+    font-size: 20px;
+    color:antiquewhite;
+    background-color: rgb(94, 94, 94); 
+    border: 2px solid #e7e7e7;} 
+.unique:hover { /*cuando se acerca el puntero al boton*/
+    color:rgb(68, 68, 68);
+    background-color: #ddd; 
+    border:rgb(68, 68, 68);
+}
